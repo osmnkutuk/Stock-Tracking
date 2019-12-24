@@ -1,0 +1,87 @@
+﻿@model stktakip.Models.Users
+@{
+    ViewBag.Title = "yenikullanici";
+    Layout = "~/Views/Shared/MainLayaout.cshtml";
+}
+
+<h2>Yeni Kullanıcı</h2>
+
+<form method="post" class="form-group">
+
+    @*<div>
+            <label>Adı</label>
+            <input type="text" class="form-control" name="Name" />
+        </div>*@
+    <div>
+        <label>Adı</label>
+        @Html.TextBoxFor(m => m.Name, new { @class = "form-control", type="text" })
+        @Html.ValidationMessageFor(m => m.Name, "", new { @style = "color:red" })
+    </div>
+
+
+    @*<div>
+            <label>Soyadı</label>
+            <input type="text" class="form-control" name="Surname" />
+        </div>*@
+
+    <div>
+        <label>Soyadı</label>
+        @Html.TextBoxFor(m => m.Surname, new { @class = "form-control", type="text" })
+        @Html.ValidationMessageFor(m => m.Surname, "", new { @style = "color:red" })
+    </div>
+
+
+
+
+    @*<div>
+            <label>TakmaAdı</label>
+            <input type="text" class="form-control" name="Nickname" />
+        </div>*@
+
+    <div>
+        <label>TakmaAdı</label>
+        @Html.TextBoxFor(m => m.Nickname, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Nickname, "", new { @style = "color:red" })
+    </div>
+
+
+    @*<div>
+            <label>Numara</label>
+            <input type="number" class="form-control" name="Number" />
+        </div>*@
+
+
+
+
+    <div>
+        <label>Numara</label>
+        @Html.TextBoxFor(m => m.Number, new { @class = "form-control", type="number" })
+        @Html.ValidationMessageFor(m => m.Number, "", new { @style = "color:red" })
+    </div>
+
+
+
+
+    @*<div>
+            <label>Email</label>
+            <input type="email" class="form-control" name="Email" />
+        </div>*@
+
+    <div>
+        <label>Eposta</label>
+        @Html.TextBoxFor(m => m.Email, new { @class = "form-control", type="email" })
+        @Html.ValidationMessageFor(m => m.Email, "", new { @style = "color:red" })
+    </div>
+
+
+    <div style="margin-top:15px">
+        <button class="btn btn-info" id="btn3">Ekle</button>
+        <script alert="#btn3">
+            $('#btn3').click(function () {
+                alert("Kullanıcı eklendi")
+            })
+        </script>
+    </div>
+</form>
+
+

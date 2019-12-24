@@ -1,0 +1,68 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>takip</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="~/Content/DataTables/css/colReorder.dataTables.min.css" />
+    <link href="~/Content/DataTables/css/dataTables.bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="icon" type="path/to/favicon-16.png" sizes="16x16" href="~/favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="~/Scripts/modal.js"></script>
+    <script src="~/Scripts/button.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/Scripts/custom.js"></script>
+    <script src="~/Scripts/custom2.js"></script>
+    <script src="~/Scripts/custom3.js"></script>
+    <script src="~/Scripts/custom4.js"></script>
+ 
+    <script src="~/Scripts/bootbox.min.js"></script>
+    @RenderSection("scripts",false)
+</head>
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">StokTakip</a>
+            </div>
+            <ul class="nav navbar-nav">
+
+
+                <li><a href="/Product/Index/">Ürünler</a></li>
+                <li><a href="/Categorie/Index/">Kategoriler </a></li>
+                <li><a href="/ProductStock/Index/">Ürün Stok</a></li>
+                @if (User.IsInRole("Lider"))
+                {
+                    <li><a href="/User/Index/">Kullanıcılar</a></li>
+                }
+
+
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+             
+                <li><a href="/LoginProfil/Profil"><span class="glyphicon glyphicon-user"></span> Profil</a></li>
+                <li><a href="/Security/Logout"><span class="glyphicon glyphicon-log-out"></span> Çıkış</a></li>
+
+            </ul>
+        </div>
+    </nav>
+    <span class=" col-md-auto"> Hoş Geldiniz</span> @HttpContext.Current.User.Identity.Name
+    <div class="container">
+        @RenderBody()
+
+    </div>
+
+</body>
+</html>

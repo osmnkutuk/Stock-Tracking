@@ -1,0 +1,37 @@
+﻿@model stktakip.Models.Categories
+@{
+    ViewBag.Title = "yenikategori";
+    Layout = "~/Views/Shared/MainLayaout.cshtml";
+}
+
+<h2>Yeni Kategori</h2>
+@using (Ajax.BeginForm("yenikategori","Categorie",new AjaxOptions { HttpMethod = "POST",UpdateTargetId="Mesaj" }))
+{
+@Html.AntiForgeryToken()
+<div class="form-group">
+
+    @*@<div>
+
+            <label>Kategori Adı</label>
+            <input type="text" class="form-control" name="CategorieNames" />
+        </div>*@
+    <div>
+        <label>Kategori Adı</label>
+        @Html.TextBoxFor(m => m.CategorieNames, new { @class = "form-control"})
+        @Html.ValidationMessageFor(m => m.CategorieNames, "", new { @style = "color:red" })
+    </div>
+
+    <div>
+        <label>Açıklama</label>
+        <input type="text" class="form-control" name="Explanation" required="" />
+    </div>
+    <div style="margin-top:15px">
+        <button class="btn btn-info" id="btn">Kategori Ekle</button>
+       <script alert="#btn">
+            $('#btn').click(function () {
+                alert("Kategori ekleme işlemi yapıldı..!")
+            })
+        </script>
+    </div>
+</div>
+}

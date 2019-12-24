@@ -1,0 +1,17 @@
+﻿@model stktakip.ViewModel.Mesajviewmodel
+
+@if(Model.Status)
+{
+    <div class="alert alert-success">
+        @Model.Message <a href="@Model.Url">@Model.LinkText</a>
+    </div>
+}
+
+else
+{
+
+    <div class="alert alert-danger">
+        @Model.Message <a href="@Model.Url">@Model.LinkText</a>
+    </div>
+
+}

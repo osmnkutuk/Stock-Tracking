@@ -1,0 +1,87 @@
+﻿@model stktakip.Models.Products
+
+@{
+
+    ViewBag.Title = "yeniurun";
+    Layout = "~/Views/Shared/MainLayaout.cshtml";
+}
+
+<h2>Yeni Ürün</h2>
+
+@using (Html.BeginForm("yeniurun", "Product", FormMethod.Post))
+{
+    @Html.AntiForgeryToken();
+<div class="form-group">
+
+    @*<div >
+            <label>Urun Adı</label>
+            <input type="text" class="form-control" name="ProductName" required="" />
+        </div>*@
+
+    <div>
+        <label>Ürün Adı</label>
+        @Html.TextBoxFor(m => m.ProductName, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.ProductName, "", new { @style = "color:red" })
+    </div>
+
+
+    @* <div>
+            <label>Markası</label>
+            <input type="text" class="form-control" name="Brands" required="" />
+        </div>*@
+    <div>
+        <label>Markalar</label>
+        @Html.TextBoxFor(m => m.Brands, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Brands, "", new { @style = "color:red" })
+    </div>
+
+    @*
+        <div>
+            <label>KategoriAdı</label>
+            <input type="text" class="form-control" name="CatagorieName" required="" />
+        </div>*@
+    <div>
+        <label>Kategori Adı</label>
+    @Html.TextBoxFor(m => m.CategorieName, new { @class = "form-control" })
+    @Html.ValidationMessageFor(m => m.CategorieName, "", new { @style = "color:red" })
+    </div>
+
+    @*
+        <div>
+            <label>UrunTipi</label>
+            <input type="text" class="form-control" name="ProductType" required="" />
+        </div>*@
+
+
+
+    <div>
+        <label>Ürün Tipi</label>
+        @Html.TextBoxFor(m => m.ProductType, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.ProductType, "", new { @style = "color:red" })
+    </div>
+
+
+    @* <
+        <div>
+            <label>Alış Fiyatı</label>
+            <input type="number" class="form-control" name="BuyingPrice" required="" />
+        </div>*@
+
+
+    <div>
+        <label>Alış Fiyatı</label>
+        @Html.TextBoxFor(m => m.BuyingPrice, new { @class = "form-control",type="number" })
+        @Html.ValidationMessageFor(m => m.BuyingPrice, "", new { @style = "color:red" })
+    </div>
+
+
+    <div style="margin-top:15px">
+        <button class="btn btn-info" id="btn2">Ekle</button>
+        <script alert="#btn2">
+            $('#btn2').click(function () {
+                alert("Ürün ekleme işlemi yapıldı...!")
+            })
+        </script>
+    </div>
+</div>
+}

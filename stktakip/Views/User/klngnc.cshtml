@@ -1,0 +1,36 @@
+﻿@model stktakip.Models.Users
+@{
+    ViewBag.Title = "klngnc";
+    Layout = "~/Views/Shared/MainLayaout.cshtml";
+}
+
+<h2>Kullanıcı Güncelle</h2>
+@using (Html.BeginForm("Guncelle", "User", FormMethod.Post))
+{ 
+<div class="form-group list-group">
+    
+
+    @Html.LabelFor(m => m.UserId)
+    @Html.TextBoxFor(m => m.UserId, new { @class = "form-method" })
+
+    @Html.LabelFor(m=> m.Name)
+    @Html.TextBoxFor(m => m.Name, new { @class ="form-method"})
+
+
+    @Html.LabelFor(m => m.Surname)
+    @Html.TextBoxFor(m => m.Surname, new { @class = "form-method" })
+
+    @Html.LabelFor(m => m.Nickname)
+    @Html.TextBoxFor(m => m.Nickname, new { @class = "form-method" })
+
+    @Html.LabelFor(m => m.Number)
+    @Html.TextBoxFor(m => m.Number, new { @class = "form-method" })
+
+    @Html.LabelFor(m => m.Email)
+    @Html.TextBoxFor(m => m.Email, new { @class = "form-method" })
+
+    <div>
+    <button class="btn-warning">DÜZENLE</button>
+    </div>
+</div>
+}

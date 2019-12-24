@@ -1,0 +1,35 @@
+﻿@model stktakip.Models.Categories
+@{
+    ViewBag.Title = "kategorigetir";
+    Layout = "~/Views/Shared/MainLayaout.cshtml";
+}
+
+<h2>Kategori Güncelleme</h2>
+@using(Html.BeginForm("Guncelle", "Categorie", FormMethod.Post))
+{
+    @Html.AntiForgeryToken();
+    <div class="form-group">
+        @Html.LabelFor(m => m.CategorieId)
+        @Html.TextBoxFor(m => m.CategorieId, new { @class = "form-control" })
+
+
+        @Html.LabelFor(m => m.CategorieNames)
+        @Html.TextBoxFor(m => m.CategorieNames, new { @class = "form-control" })
+
+
+        @Html.LabelFor(m => m.Explanation)
+        @Html.TextBoxFor(m => m.Explanation, new { @class = "form-control" })
+    <br />
+
+    <div>
+        <button class="btn btn-warning">Kategori Güncelle</button>
+    </div>
+        </div>
+}
+@section scripts {
+
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+
+
+}

@@ -1,0 +1,54 @@
+﻿@model stktakip.Models.Login
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+
+   <link href="~/Css/main.css" rel="stylesheet" />
+    <link href="~/Css/util.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container-login100" style="background-image: url('images/img-01.jpg');">
+        <div class="wrap-login100 p-t-190 p-b-30">
+            <div class="login100-form-avatar">
+                <img src="~/Css/0.png" alt="AVATAR">
+            </div>
+
+            
+
+            <div class="container">
+                @using (Html.BeginForm("Login", "Security", FormMethod.Post))
+                {
+
+                    <label></label>
+                    <div class="form-group">
+                        <br />
+
+                        @Html.TextBoxFor(m => m.UserName, new { @class = "form-control", placeholder = "Kullanıcı Adı" })
+                        @Html.ValidationMessageFor(m => m.UserName, "", new { @style = "color:red" })
+                    </div>
+                    <div class="form-group">
+                        <br />
+                        @Html.TextBoxFor(m => m.Password, new { @class = "form-control", placeholder = "Şifre", type = "password" })
+                        @Html.ValidationMessageFor(m => m.Password, "", new { @style = "color:red" })
+                    </div>
+
+                    <button type="submit" class="btn btn-block btn-success">Giriş Yap</button>
+
+                    <div class="text-center w-full p-t-25 p-b-230">
+                        <a href="#" class="txt1">
+                            Forgot Username / Password?
+                        </a>
+                    </div>
+                }
+            </div>
+        </div>
+        </div>
+</body>
+</html>

@@ -1,0 +1,168 @@
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\stktakip.dll.config
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\stktakip.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\stktakip.pdb
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\roslyn\csc.exe
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\roslyn\csc.exe.config
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\roslyn\csc.rsp
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\roslyn\csi.exe
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\roslyn\csi.exe.config
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\roslyn\csi.rsp
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\roslyn\System.AppContext.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\roslyn\System.Console.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\roslyn\System.IO.Compression.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\roslyn\System.IO.Pipes.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\roslyn\System.Security.Claims.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\roslyn\System.ValueTuple.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\roslyn\System.Xml.XPath.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\roslyn\vbc.exe
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\roslyn\vbc.exe.config
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\roslyn\vbc.rsp
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\roslyn\VBCSCompiler.exe
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\Antlr3.Runtime.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\EntityFramework.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\EntityFramework.SqlServer.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\Newtonsoft.Json.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\System.Web.Helpers.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\System.Web.Mvc.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\System.Web.Optimization.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\System.Web.Razor.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\System.Web.WebPages.Deployment.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\System.Web.WebPages.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\System.Web.WebPages.Razor.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\WebGrease.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\EntityFramework.xml
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\EntityFramework.SqlServer.xml
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\System.Web.Helpers.xml
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\System.Web.Mvc.xml
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\System.Web.Optimization.xml
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\System.Web.Razor.xml
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\System.Web.WebPages.xml
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\System.Web.WebPages.Deployment.xml
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\System.Web.WebPages.Razor.xml
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\Newtonsoft.Json.xml
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\Antlr3.Runtime.pdb
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\OSMEN\source\repos\stktakip\stktakip\obj\Debug\stktakip.csprojAssemblyReference.cache
+C:\Users\OSMEN\source\repos\stktakip\stktakip\obj\Debug\stktakip.csproj.CoreCompileInputs.cache
+C:\Users\OSMEN\source\repos\stktakip\stktakip\obj\Debug\stktakip.csproj.CopyComplete
+C:\Users\OSMEN\source\repos\stktakip\stktakip\obj\Debug\stktakip.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\obj\Debug\stktakip.pdb
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\PagedList.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\PagedList.Mvc.dll
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\PagedList.xml
+C:\Users\OSMEN\source\repos\stktakip\stktakip\bin\PagedList.Mvc.xml
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\stktakip.dll.config
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\stktakip.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\stktakip.pdb
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\roslyn\csc.exe
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\roslyn\csc.exe.config
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\roslyn\csc.rsp
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\roslyn\csi.exe
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\roslyn\csi.exe.config
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\roslyn\csi.rsp
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\roslyn\System.AppContext.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\roslyn\System.Collections.Immutable.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\roslyn\System.Console.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\roslyn\System.IO.Compression.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\roslyn\System.IO.FileSystem.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\roslyn\System.IO.Pipes.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\roslyn\System.Reflection.Metadata.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\roslyn\System.Security.AccessControl.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\roslyn\System.Security.Claims.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\roslyn\System.ValueTuple.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\roslyn\System.Xml.XPath.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\roslyn\vbc.exe
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\roslyn\vbc.exe.config
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\roslyn\vbc.rsp
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\roslyn\VBCSCompiler.exe
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\roslyn\VBCSCompiler.exe.config
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\Antlr3.Runtime.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\EntityFramework.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\EntityFramework.SqlServer.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\Microsoft.Web.Infrastructure.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\Newtonsoft.Json.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\PagedList.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\PagedList.Mvc.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\System.Web.Helpers.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\System.Web.Mvc.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\System.Web.Optimization.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\System.Web.Razor.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\System.Web.WebPages.Deployment.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\System.Web.WebPages.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\System.Web.WebPages.Razor.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\WebGrease.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\EntityFramework.xml
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\EntityFramework.SqlServer.xml
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\PagedList.xml
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\PagedList.Mvc.xml
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\System.Web.Helpers.xml
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\System.Web.Mvc.xml
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\System.Web.Optimization.xml
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\System.Web.Razor.xml
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\System.Web.WebPages.xml
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\System.Web.WebPages.Deployment.xml
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\System.Web.WebPages.Razor.xml
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\Newtonsoft.Json.xml
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\Antlr3.Runtime.pdb
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\obj\Debug\stktakip.csprojAssemblyReference.cache
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\obj\Debug\stktakip.csproj.CoreCompileInputs.cache
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\obj\Debug\stktakip.csproj.CopyComplete
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\obj\Debug\stktakip.dll
+D:\Yedek 16-12-19\source\repos\stktakip\stktakip\obj\Debug\stktakip.pdb

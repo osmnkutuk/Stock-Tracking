@@ -1,0 +1,47 @@
+﻿@model stktakip.Models.Products
+@{
+    ViewBag.Title = "urunguncelle";
+    Layout = "~/Views/Shared/MainLayaout.cshtml";
+}
+
+<h2>Ürün Güncelle</h2>
+@using (Html.BeginForm("Guncelle", "Product", FormMethod.Post))
+{
+   
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.ProductId);
+        @Html.TextBoxFor(m => m.ProductId, new { @class = "form-control" })
+
+
+        @Html.LabelFor(m => m.ProductName);
+        @Html.TextBoxFor(m => m.ProductName, new { @class = "form-control" })
+
+
+        @Html.LabelFor(m => m.Brands);
+        @Html.TextBoxFor(m => m.Brands, new { @class = "form-control" })
+
+
+        @Html.LabelFor(m => m.CategorieName);
+        @Html.DropDownListFor(m => m.Categories.CategorieId, (List<SelectListItem>)ViewBag.dgr, new { @class = "form-control" })
+        @*@Html.TextBoxFor(m => m.CategorieName, new { @class = "form-control" })*@
+
+
+        @Html.LabelFor(m => m.ProductType);
+        @Html.TextBoxFor(m => m.ProductType, new { @class = "form-control" })
+
+
+        @Html.LabelFor(m => m.BuyingPrice);
+        @Html.TextBoxFor(m => m.BuyingPrice, new { @class = "form-control" })
+
+        <div>
+            <button class="btn-warning">Güncelle</button>
+        </div>
+    </div>
+
+}
+@section scripts{
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+}
+

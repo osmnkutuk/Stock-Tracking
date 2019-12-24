@@ -1,0 +1,42 @@
+﻿@model stktakip.Models.ProductStocks
+@{
+    ViewBag.Title = "stokgnc";
+    Layout = "~/Views/Shared/MainLayaout.cshtml";
+}
+<h2>Stok Güncelle</h2>
+
+@using (Html.BeginForm("Guncelle", "ProductStock", FormMethod.Post))
+{
+<div class="form-group">
+
+
+    @Html.LabelFor(m => m.UrunStokId);
+    @Html.TextBoxFor(m => m.UrunStokId, new { @class = "form-control" })
+
+
+    @Html.LabelFor(m => m.Piece);
+    @Html.TextBoxFor(m => m.Piece, new { @class = "form-control" })
+
+
+    @Html.LabelFor(m => m.RecordDate);
+    @Html.TextBoxFor(m => m.RecordDate, new { @class = "form-control" })
+
+
+    @Html.LabelFor(m => m.ProductId);
+    @Html.TextBoxFor(m => m.ProductId, new { @class = "form-control" })
+
+    
+
+    <div>
+        <button class="btn-warning">Guncelle</button>
+    </div>
+</div>
+
+}
+@section scripts {
+    
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+
+
+    }

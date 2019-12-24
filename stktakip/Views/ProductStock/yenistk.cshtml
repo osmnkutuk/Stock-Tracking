@@ -1,0 +1,54 @@
+﻿@model stktakip.Models.ProductStocks
+@{
+    ViewBag.Title = "yenistk";
+    Layout = "~/Views/Shared/MainLayaout.cshtml";
+}
+
+<<h2>Yeni Stok</h2>
+
+ <form class="form-group" method="post">
+
+     @*
+        <div>
+
+            <label>Adet</label>
+            <input type="number" class="form-control" name="Piece" />
+        </div>*@
+     <div>
+         <label>Adet</label>
+         @Html.TextBoxFor(m => m.Piece, new { @class = "form-control", type="number" })
+         @Html.ValidationMessageFor(m => m.Piece, "", new { @style = "color:red" })
+     </div>
+     @*
+        <div>
+        <label>KayıtTarihi</label>
+        <input type="datetime-local" class="form-control" name="RecordDate" />
+            </div>*@
+     <div>
+         <label>KayıtTarihi</label>
+         @Html.TextBoxFor(m => m.RecordDate, new { @class = "form-control", type="date" })
+         @Html.ValidationMessageFor(m => m.RecordDate, "", new { @style = "color:red" })
+     </div>
+     @*<div>
+            <label>UrunId</label>
+            <input type="number" class="form-control" name="ProductId" />
+        </div>*@
+
+     <div>
+         <label>Urun Adı</label>
+         @Html.TextBoxFor(m => m.ProductId, new { @class = "form-control",type="text" })
+         @Html.ValidationMessageFor(m => m.ProductId, "", new { @style = "color:red" })
+     </div>
+
+
+
+     <div style="margin-top:15px">
+
+         <button class="btn btn-info" id="btn3">Ekle</button>
+         <script alert="#btn3">
+             $('#btn3').click(function () {
+                 alert("Ürünstok eklendi...!")
+             })
+         </script>
+     </div>
+ </form>
